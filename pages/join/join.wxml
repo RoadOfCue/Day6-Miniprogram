@@ -1,0 +1,8 @@
+<!--pages/join/join.wxml-->
+<view class="container">
+  <image class="bg" src="/images/join.png"></image>
+  <input class="name" disabled="disabled" value="{{name}}"></input>
+  <textarea class="task" disabled="disabled" value="{{task}}"></textarea>
+  <view catchtap="joinTap" class="join-btn">立即加入</view>
+  <image class="invite-red" src="/images/invite-red.png"></image>
+</view>

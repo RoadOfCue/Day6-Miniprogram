@@ -1,0 +1,7 @@
+<!--pages/start/start.wxml-->
+<view class="container">
+  <image class="bg" src="/images/start.png"></image>
+  <input class="name" disabled="disabled" value="{{name}}"></input>
+  <textarea class="task" disabled="disabled" value="{{task}}"></textarea>
+  <view class="start-btn">开始结伴学习</view>
+</view>

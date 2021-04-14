@@ -1,0 +1,56 @@
+/* pages/create/create.wxss */
+
+.container{
+  width: 100vw;
+  height: 100vh;
+}
+
+.bg{
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.eg-input,
+.eg-textarea{
+  position: absolute;
+  left: 50%;
+  transform: translatex(-50%);
+  width: 60vw;
+  padding: 10rpx 30rpx;
+  background-color: #fff;
+  box-sizing: border-box;
+}
+
+.eg-input{
+  top: 47%;
+  height: 5vh;
+  border-radius: 30rpx;
+}
+
+.eg-textarea{
+  top: 59%;
+  height: 13vh;
+  border-radius: 15rpx;
+}
+
+.input-placeholder,
+.textarea-placeholder{
+  color: #d0d0d0;
+  font-size: 32rpx;
+}
+
+.create-btn{
+  position: absolute;
+  width: 54vw;
+  height: 7vh;
+  line-height: 7vh;
+  bottom: 12%;
+  left: 50%;
+  border-radius: 34rpx;
+  transform: translatex(-50%);
+  color: #fdfeff;
+  font-size: 49rpx;
+  background-color: #3b71f3;
+  text-align: center;
+}

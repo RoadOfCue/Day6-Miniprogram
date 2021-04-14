@@ -1,0 +1,14 @@
+{
+  "pages": [
+    "pages/create/create",
+    "pages/invite/invite",
+    "pages/join/join",
+    "pages/start/start"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#e0f4ff",
+    "navigationBarTextStyle": "black"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

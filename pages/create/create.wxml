@@ -1,0 +1,7 @@
+<!--pages/create/create.wxml-->
+<view class="container">
+  <image class="bg" src="/images/create.png"></image>
+  <input class="eg-input" catchinput="catchName" placeholder="例：不写完作业不睡觉局" />
+  <textarea class="eg-textarea" catchinput="catchTask" placeholder="例：8点起床，学习2小时" />
+  <view catchtap="createTap" class="create-btn">立即组局</view>
+</view>
